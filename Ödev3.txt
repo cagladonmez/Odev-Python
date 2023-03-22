@@ -1,0 +1,22 @@
+  HTML 
+Açılımı Hyper-Text Markup Languagedir. 
+Web siteleri oluşturmak için kullanılır.
+Bir biçimlendirme dilidir.
+Tarayıcıların web üzerinden gelen bilgiyi anlamlı hale dönüştürmelerini sağlar.
+Taglerden oluşur. (<tag ismi> içerik </tag ismi> şeklinde)
+
+  HTML LOCATORS
+Seleniumda kullanmak istediğimiz web nesnesinin yerini belirtmek için kullandığımız komutlardır.
+ID, Name, ClassName, TagName, LinkText, CssSelector, XPath en yaygın çeşitleridir.
+By kullanılarak yazılırlar.
+
+  SELENİUMDA AKSİYONLAR
+build() -> çalıştırılmak üzere inşa eder
+click() -> istenilen alana sol tıklar
+doubleClick() -> istenilen alana çift tıklar
+dragAndDrop() -> İstenilen nesneyi istenilen yere sürükleyip bırakır
+pause() -> durdurur
+sendKeys() -> istenilen yere istenilen karakterlerin yazılmasını sağlar
+scrollByAmount() -> istenilen miktarda sayfanın kaydırılmasını sağlar
+scrollToElement() -> aranılan nesneye kadar kaydırılmasını sağlar
+

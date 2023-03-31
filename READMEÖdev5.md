@@ -1,4 +1,5 @@
 Pytest Decorators
+
 @pytest.fixture dekoratörü return değerini test fonksiyonlarına koymaya yarar.
 
 @pytest.mark.parametrize dekoratörü aynı testi farklı parametrelerle birden fazla kere test edebilmemizi sağlar.

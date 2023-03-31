@@ -94,17 +94,17 @@ class Testsaucedemo:
         loginbutton = driver.find_element(By.ID,"login-button")
         loginbutton.click()
         sleep(2)
-        XIcons = driver.find_elements(By.XPATH,"/html/body/div/div/div[2]/div[1]/div/div/form/div[1]/svg")
+        XIcons = driver.find_elements(By.CLASS_NAME,"error_icon")
         sleep(2)
         testResult = len(XIcons)!=0
         if testResult == False:
             print(f"Test Sonucu: {testResult}")
         else:
-            Xbutton = driver.find_element(By.XPATH,"/html/body/div/div/div[2]/div[1]/div/div/form/div[3]/h3/button/svg/path")
+            Xbutton = driver.find_element(By.CLASS_NAME,"error-button")
             sleep(2)
             Xbutton.click()
             sleep(2)
-            XIcons = driver.find_elements(By.XPATH,"/html/body/div/div/div[2]/div[1]/div/div/form/div[1]/svg")
+            XIcons = driver.find_elements(By.CLASS_NAME,"error_icon")
             testResult = len(XIcons)==0
             print(f"Test Sonucu: {testResult}")
         while True:
